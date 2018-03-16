@@ -18,7 +18,7 @@ public class City extends DataSupport {
     /**
      * 市代号
      */
-    private String cityCode;
+    private int cityCode;
     /**
      * 当前省ID
      */
@@ -40,12 +40,12 @@ public class City extends DataSupport {
         this.provinceId = provinceId;
     }
 
-    public String getCityCode() {
+    public int getCityCode() {
 
         return cityCode;
     }
 
-    public void setCityCode(String cityCode) {
+    public void setCityCode(int cityCode) {
         this.cityCode = cityCode;
     }
 
