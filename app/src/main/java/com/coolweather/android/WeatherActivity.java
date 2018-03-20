@@ -222,6 +222,6 @@ public class WeatherActivity extends AppCompatActivity {
         } else {
             Toast.makeText(WeatherActivity.this,"获取天气信息",Toast.LENGTH_SHORT).show();
         }
-        }
+    }
 
 }
